@@ -1,73 +1,103 @@
-# Welcome to your Lovable project
+🌟 Innovators Retreat
 
-## Project info
+The Innovators Retreat System was built to manage participants, sessions, bios, and communications for a multi-day retreat.
+It combined Airtable, custom automations, interfaces, and personalized emails into one unified system that made retreat operations seamless.
 
-**URL**: https://lovable.dev/projects/5dd6ed21-72da-4697-8841-8976f23bbc60
+📖 Overview
 
-## How can I edit this code?
+Running a global retreat requires more than just a spreadsheet — it requires a system that can:
 
-There are several ways of editing your application.
+Track participant records and session RSVPs
 
-**Use Lovable**
+Collect and update participant bios
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5dd6ed21-72da-4697-8841-8976f23bbc60) and start prompting.
+Automate routine communications
 
-Changes made via Lovable will be committed automatically to this repo.
+Provide interfaces for organizers to work efficiently
 
-**Use your preferred IDE**
+Keep data synced across all stakeholders
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+This platform achieved exactly that.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+🚀 Key Features
+👤 Participant Records
 
-Follow these steps:
+Master database of all retreat participants
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Linked records for roles (e.g., moderator, panelist, attendee)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Editable bios connected to each participant
 
-# Step 3: Install the necessary dependencies.
-npm i
+📄 Bio Collection & Updates
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Participants received prefilled forms to update or confirm their bios
 
-**Edit a file directly in GitHub**
+Submitted bios synced directly back to Airtable
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Organizers could review, approve, or edit bios in one place
 
-**Use GitHub Codespaces**
+📅 Session RSVP & Attendance
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Central RSVP system to manage attendance across sessions
 
-## What technologies are used for this project?
+Chronological view of events for participants
 
-This project is built with:
+Capacity limits enforced automatically (e.g., workshops, meals)
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Locked sessions prevented last-minute changes unless cleared by staff
 
-## How can I deploy this project?
+📧 Automated Emails
 
-Simply open [Lovable](https://lovable.dev/projects/5dd6ed21-72da-4697-8841-8976f23bbc60) and click on Share -> Publish.
+Personalized HTML emails generated via Airtable + Zapier
 
-## Can I connect a custom domain to my Lovable project?
+Each participant received:
 
-Yes, you can!
+Links to their RSVP forms
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Profile update links
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+Event-specific reminders
+
+🖥️ Interfaces for Organizers
+
+Airtable interfaces for reviewing bios, RSVPs, and attendance
+
+Quick search and filter tools to find specific participants
+
+Single-click review and approval workflows
+
+🛠️ Tech Stack
+
+Data Layer: Airtable (records, sessions, bios, RSVPs)
+
+Frontend: Airtable Interfaces + prefilled form views
+
+Automations:
+
+Airtable scripting for record updates and capacity enforcement
+
+Zapier for personalized HTML emails
+
+Email Delivery: Mailchimp + custom Zapier workflows
+
+📸 Example Screens
+
+![Session RSVP Form (Yes/No per session, capacity enforcement)](images/RSVP.png)
+
+🚀 Impact
+
+Managed all retreat participant data in a single source of truth
+
+Collected and reviewed hundreds of participant bios smoothly
+
+Automated communication reduced manual email work to near zero
+
+Interfaces enabled retreat organizers to work faster and more confidently
+
+🧠 Lessons Learned
+
+Built scalable Airtable systems with linked records, forms, and automations
+
+Learned how to design for sustainability — so the retreat can rerun without rebuilding
+
+Balanced participant experience (simple forms + emails) with organizer needs (powerful data tools)
