@@ -65,7 +65,7 @@ This platform achieved exactly that.
 
 ## 📸 Screenshots  
 - **Session RSVP Form** (Yes/No per session, capacity enforcement)  
-(images/RSVP.png)
+![](images/RSVP.png)
 
 ---
 
